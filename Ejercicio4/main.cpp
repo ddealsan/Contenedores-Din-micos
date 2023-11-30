@@ -8,4 +8,12 @@ int main(){
     valarray<double> resta = valores - 2.0;
     valarray<double> multiplicacion = valores * 3.0;
     valarray<double> division = valores / 2.0;
+
+    cout << "Valores originales: ";
+    for(double valor : valores) {
+        cout << valor << " ";
+    }
+    cout << endl;
+
+
 }
