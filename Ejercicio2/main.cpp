@@ -9,5 +9,9 @@ int main(){
     stack<float, list<float>> miPila(miLista);
     cout << "Elementos de la pila: " << endl;
 
-
+while (!miPila.empty()) {
+    std::cout <<"Top"<<  miPila.top() << std::endl;
+    miPila.pop();
+}
+    return 0;
 }
