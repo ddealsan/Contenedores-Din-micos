@@ -12,7 +12,8 @@ int main(){
     miVector.push_back(40);
     miVector.push_back(50);
     cout << "Elementos del vector: " << endl;
-    for(int i = 0; i < miVector.size(); i++){
-        cout << miVector[i] << endl;
-    }
+ for(std::vector<int>::iterator it = miVector.begin(); it != miVector.end(); ++it) {
+        std::cout << *it << std::endl;
+}
+    return 0;
 }
