@@ -33,4 +33,12 @@ int main(){
     }
     cout << endl;
 
+    cout << "División / 2.0: ";
+    for(double valor : division) {
+        cout << valor << " ";
+    }
+    cout << endl;
+
+    return 0;
+
 }
