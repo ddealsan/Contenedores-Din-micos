@@ -27,6 +27,10 @@ int main(){
     }
     cout << endl;
 
-
+    cout << "Multiplicación * 3.0: ";
+    for(double valor : multiplicacion) {
+        cout << valor << " ";
+    }
+    cout << endl;
 
 }
