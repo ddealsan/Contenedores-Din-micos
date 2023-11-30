@@ -13,7 +13,12 @@ int main(){
     for(double valor : valores) {
         cout << valor << " ";
     }
-    cout << endl;
 
+    cout << endl;
+    cout << "Suma + 10.0: ";
+    for(double valor : suma) {
+        cout << valor << " ";
+    }
+    cout << endl;
 
 }
