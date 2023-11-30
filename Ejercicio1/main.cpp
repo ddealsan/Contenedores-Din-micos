@@ -10,5 +10,9 @@ int main(){
     miVector.push_back(20);
     miVector.push_back(30);
     miVector.push_back(40);
-    miVector.push_back(50);Añadi
+    miVector.push_back(50);
+    cout << "Elementos del vector: " << endl;
+    for(int i = 0; i < miVector.size(); i++){
+        cout << miVector[i] << endl;
+    }
 }
