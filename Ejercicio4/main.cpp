@@ -21,4 +21,12 @@ int main(){
     }
     cout << endl;
 
+    cout << "Resta - 2.0: ";
+    for(double valor : resta) {
+        cout << valor << " ";
+    }
+    cout << endl;
+
+
+
 }
