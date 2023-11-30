@@ -13,7 +13,7 @@ int main() {
         int i = lexical_cast<int>(s);
         cout << "Número: " << i << endl;
     } catch(bad_lexical_cast &e) {
-        cerr << "Error: " << e.what() << endl;
+        cerr << "Error: " << e.what() << endl;//what() es un método de la clase bad_lexical_cast
     }
 
     return 0;
