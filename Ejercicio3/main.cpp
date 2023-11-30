@@ -14,3 +14,8 @@ int main() {
     for(int num : miVector) {
         std::cout << num << std::endl;
     }
+    int maxNum = *std::max_element(miVector.begin(), miVector.end());
+    std::cout << "Número máximo: " << maxNum << std::endl;
+
+    return 0;
+}
